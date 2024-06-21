@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://c6im05oni5pja"]
+
+[ext_resource type="Script" path="res://Main.cs" id="1_s41ga"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_s41ga")
+
+[node name="GameOverLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 250.0
+offset_top = 69.0
+offset_right = 520.0
+offset_bottom = 131.0
+
+[node name="GameTimer" type="Timer" parent="."]
+autostart = true
